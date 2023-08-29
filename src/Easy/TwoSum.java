@@ -4,8 +4,8 @@ public class TwoSum {
     public static void main(String[] args) {
         int[] arrayTest = new int[]{3, 2, 4};
         int[] arrayResult = twoSum(arrayTest, 6);
-        for (int i = 0; i < arrayResult.length; i++) {
-            System.out.println(arrayResult[i]);
+        for (int j : arrayResult) {
+            System.out.println(j);
         }
     }
     public static int[] twoSum(int[] nums, int targer) {
