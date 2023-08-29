@@ -13,12 +13,6 @@ public class RemDuplicateFromSortedArray {
             System.out.print(e);
         }
 
-        System.out.println(removeDuplicatesUseSet(nums));
-
-        for (int e: nums
-        ) {
-            System.out.print(e);
-        }
     }
 
     public static int removeDuplicates(int[] nums) {
