@@ -1,10 +1,11 @@
 package Easy;
 
+import java.util.Scanner;
+
 public class RemoveElement {
     public static void main(String[] args) {
         int[] testNums = new int[]{3, 2, 2, 3};
         System.out.println(removeElement(testNums, 3));
-
         for (int a : testNums
         ) {
             System.out.print(a);
